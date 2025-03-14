@@ -94,4 +94,8 @@ h1 {
     #head {
         height: 80px;
     }
+
+    .task-container {
+        margin-top: 10px;
+    }
 }
