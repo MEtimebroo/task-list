@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: dodgerblue;
+    justify-content: center;
+}
+
+#head {
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    right: 0;
+    border-bottom: 2px solid darkgray;
+}
+
+#list-vars {
+    margin-top: 15vh;
+    margin-left: 2vw;
+    width: 75%;
+    height: 5vh;
+    border: 3px solid lightsteelblue;
+    border-radius: 5px;
+    padding-left: 1vw;
+    font-size: medium;
+}
+
+#add {
+    height: 5.9vh;
+    width: 8vw;
+    background-color: dodgerblue;
+    margin-left: 2vh;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    color: whitesmoke;
+}
+
+#add:hover {
+    background-color: lightskyblue;
+}
+
+#list {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    width: 84.8%;
+    height: 50vh;
+    color: royalblue;
+}
+
+#vars {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    margin-top: 4vh;
+}
+
+.dels {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+
+.dels:hover {
+    border: 1px solid dimgray;
+}
+
+label {
+    margin-left: 5vw;
+}
+
+h1 {
+    margin-left: 2vw;
+}
+
+@media (max-width: 786px) {
+    #list-vars {
+        width: 50vw;
+    }
+
+    #add {
+        width: 20vw;
+    }
+}
