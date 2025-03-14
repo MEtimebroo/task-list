@@ -87,4 +87,8 @@ h1 {
     #add {
         width: 20vw;
     }
+
+    #head {
+        height: 80px;
+    }
 }
